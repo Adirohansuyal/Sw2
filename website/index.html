@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sw2 | Light Mode</title>
+    <title>Sw2 | Lavender Theme</title>
+
     <style>
         * {
             box-sizing: border-box;
@@ -13,8 +14,8 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f5f7fb;
-            color: #1f2937;
+            background: #eeecf8;
+            color: #283044;
         }
 
         nav {
@@ -22,18 +23,18 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 8%;
-            background: #ffffff;
-            border-bottom: 1px solid #e5e7eb;
+            background: #dcd9ef;
+            border-bottom: 1px solid #cbc8e3;
         }
 
         .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #2563eb;
+            color: #514b9b;
         }
 
         nav a {
-            color: #374151;
+            color: #343852;
             text-decoration: none;
             margin-left: 20px;
         }
@@ -46,10 +47,11 @@
         }
 
         .card {
-            background: #ffffff;
+            background: #f9f8ff;
             padding: 45px 25px;
             border-radius: 16px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+            border: 1px solid #d8d5eb;
+            box-shadow: 0 12px 30px rgba(65, 59, 120, 0.10);
         }
 
         h1 {
@@ -58,13 +60,13 @@
         }
 
         p {
-            color: #6b7280;
+            color: #626980;
             line-height: 1.7;
         }
 
         button {
-            background: #2563eb;
-            color: #ffffff;
+            background: #6258b5;
+            color: white;
             border: none;
             border-radius: 8px;
             padding: 12px 22px;
@@ -72,13 +74,18 @@
             cursor: pointer;
         }
 
+        button:hover {
+            background: #50469e;
+        }
+
         footer {
             text-align: center;
             padding: 25px;
-            color: #6b7280;
+            color: #626980;
         }
     </style>
 </head>
+
 <body>
     <nav>
         <div class="logo">Sw2</div>
@@ -91,16 +98,17 @@
     <main>
         <section class="card" id="about">
             <h1>Welcome to Sw2</h1>
-            <p>This is our original Light Mode website.</p>
-            <p>We will use this version to practice branching,
-               previews, production deployments, and rollbacks.</p>
-            <button onclick="alert('Light Mode is working!')">
+            <p>Introducing our new Lavender Theme.</p>
+            <p>A balanced interface with soft colors, calm backgrounds,
+               and a modern blue-grey look.</p>
+
+            <button onclick="alert('Lavender Theme is working!')">
                 Test Website
             </button>
         </section>
     </main>
 
-    <footer>Sw2 · Version 1.0 · Light Mode</footer>
+    <footer>Sw2 · Version 3.0 · Lavender Theme</footer>
 </body>
 </html>
 ```
